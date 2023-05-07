@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+html {
+background-color: var(--background-dark);
+background-image: var(--background-gradient);
+  color: var(--black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --background-dark: #0093E9;
+  --background-gradient: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  --black: #000;
+  --white: #fff;
+  
+}
+
+.header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 300px;
+  height: 100vh;
+  margin: auto auto;
+}
+
+label,
+input {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 1rem 0;
+}
+
+#calculate-number {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#calculate-number {
+  background-color: var(--background-dark);
+  border: none;
+  color: var(--black);
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--black);
+  margin: auto;
+  display: block;
+}
+
+#output-container {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: x-large;
+  border-color: var(--black);
+  border-width: medium;
+  border-radius: 5px;
+}
+
